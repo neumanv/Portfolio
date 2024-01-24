@@ -73,6 +73,16 @@ body {
     height: auto;
 }
 
+.redes img{
+    width: 20%;
+    height: auto;
+}
+
+footer{
+    margin-top: 5em;
+    border-top: 1px black solid;
+}
+
 body::-webkit-scrollbar {
     width: 12px;
 }
