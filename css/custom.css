@@ -78,6 +78,10 @@ body {
     height: auto;
 }
 
+.redes p{
+    font-weight: bold;
+}
+
 footer{
     margin-top: 5em;
     border-top: 1px black solid;
