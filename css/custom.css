@@ -104,9 +104,162 @@ body::-webkit-scrollbar-thumb:hover {
     border: 3px solid #f2f2f2;
 }
 
+.proyecto-card {
+    border: 1px solid #000;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+
+.proyecto-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.proyecto-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 1em;
+    object-fit: contain;
+}
+
+.proyecto-github {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95em;
+    transition: opacity 0.3s ease;
+}
+
+.proyecto-github:hover {
+    opacity: 0.6;
+}
+
+.proyecto-github img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.proyecto-header h3 {
+    font-size: 1.8rem;
+}
+
+.proyecto-desc {
+    margin: 0;
+    line-height: 1.6;
+}
+
 /* RESPONSIVE */
+@media (max-width:992px) {
+    .presentacion {
+        margin: 5% 0;
+    }
+
+    .info {
+        margin: 0 0.5em;
+    }
+
+    .pc {
+        margin: 1.5em 0.5em 0;
+    }
+
+    .pc img {
+        width: 50%;
+    }
+}
+
 @media (max-width:768px) {
     .title {
         text-align: center;
+    }
+
+    .presentacion {
+        margin: 8% 0 5%;
+    }
+
+    .img-principal {
+        width: 50%;
+    }
+
+    .bandera {
+        width: 2.2em;
+        margin: 0 0.5em;
+    }
+
+    .info {
+        margin: 0;
+    }
+
+    .pc {
+        margin: 1.5em 0 0;
+        border: none !important;
+    }
+
+    .pc img {
+        width: 40%;
+    }
+
+    .redes img {
+        width: 35%;
+    }
+
+    .redes .col-6 img {
+        width: 35%;
+    }
+
+    .proyecto-card {
+        padding: 1em;
+    }
+
+    .proyecto-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .proyecto-header h3 {
+        font-size: 1.6rem;
+    }
+
+    footer {
+        margin-top: 3em;
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+    }
+}
+
+@media (max-width:480px) {
+    .presentacion {
+        margin: 12% 0 5%;
+    }
+
+    .bandera {
+        width: 1.8em;
+        margin: 0 0.3em;
+    }
+
+    .redes img {
+        width: 45%;
+    }
+
+    .redes .col-6 img {
+        width: 30%;
+    }
+
+    .proyecto-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .proyecto-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .proyecto-github {
+        font-size: 0.85em;
     }
 }
