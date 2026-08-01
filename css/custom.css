@@ -104,6 +104,15 @@ body::-webkit-scrollbar-thumb:hover {
     border: 3px solid #f2f2f2;
 }
 
+.empresa-logo {
+    width: 1em;
+    height: 1em;
+    border-radius: 0.2em;
+    object-fit: cover;
+    vertical-align: -0.15em;
+    margin-right: 0.4em;
+}
+
 .proyecto-card {
     border: 1px solid #000;
     border-radius: 1em;
